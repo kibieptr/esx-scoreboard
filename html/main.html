@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div class="keybindContainer">
+        <span class="keyboardKeybindsTitle noSelect"><i class="fa-solid fa-keyboard"></i> Keyboard Keybinds</span>
+        <div class="keyboardKeybinds noSelect" id="keyboardKeybinds"></div>
+      </div>
+      <div class="playerInfoContainer">
+        <span class="playerInfoTitle noSelect"><i class="fa-solid fa-user-gear"></i> Player Info</span>
+        <div class="playerInfo noSelect">
+          <span class="playerInfoEntry" id="playerName">- <i class="fa-solid fa-user-tag"></i></span>
+          <br>
+          <span class="playerInfoEntry" id="playTime">- <i class="fa-solid fa-clock"></i></span>
+          <br>
+          <span class="playerInfoEntry" id="job">- <i class="fa-solid fa-briefcase"></i></span>
+          <br>
+          <span class="playerInfoEntry" id="playerID">- <i class="fa-solid fa-server"></i></span>
+        </div>
+      </div>
+      <div class="illegalActivitesContainer">
+        <span class="illegalActivitesTitle noSelect"><i class="fa-solid fa-person-rifle"></i> Illegal Activities</span>
+        <div class="illegalActivites noSelect" id="illegalActivites"></div>
+      </div>
+      <div class="tooFarMessage" id="tooFarMessage">This user is too far away from you in order to retrieve info about their looks!</div>
+      <div id="tableBase" class="tableBase">
+        <span class="onlinePlayersTitle noSelect">Players</span>
+        <span class="onlinePlayers  noSelect" id="onlinePlayers">0 <i class="fa-solid fa-circle-dot  noSelect" style="color: #7CFC00;"></i></span>
+
+        <span class="onlinePoliceTitle noSelect">Police</span>
+        <span class="onlinePolice noSelect" id="onlinePolice">0 <i class="fa-solid fa-handcuffs noSelect" style="color: #3B9AE1;"></i></span>
+
+        <span class="onlineEMSTitle noSelect">EMS</span>
+        <span class="onlineEMS noSelect" id="onlineEMS">0 <i class="fa-solid fa-truck-medical noSelect" style="color: white;"></i></span>
+
+        <span class="onlinepemerintahTitle noSelect">Pemerintah</span>
+        <span class="onlinepemerintah noSelect" id="onlinepemerintah">0 <i class="fa-solid fa-earth-americas noSelect" style="color: rgb(0, 89, 253);"></i></span>
+
+        <span class="onlineMechanicsTitle noSelect">Mechanic</span>
+        <span class="onlineMechanics noSelect" id="onlineMechanics">0 <i class="fa-solid fa-toolbox noSelect" style="color: #cd8e52;"></i></span>
+
+        <span class="onlinepedagangTitle noSelect">Pedagang</span>
+        <span class="onlinepedagang noSelect" id="onlinepedagang">0 <i class="fa-solid fa-utensils noSelect" style="color: #cd52a4;"></i></span>
+        
+        <span class="onlineTaxiTitle noSelect">Taxi</span>
+        <span class="onlineTaxi noSelect" id="onlineTaxi">0 <i class="fa-solid fa-taxi noSelect" style="color: #fdb813;"></i></span>
+
+      </div>
+    </div>
+  </body>
+</html>
